@@ -6,11 +6,20 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
 }
+a {
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+}
 img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
     border: none;
+    object-fit: cover;
+}
+img:hover {
+    transform: scale(1.08);
 }
 #preloader {
     background: black url('../images/299.gif') no-repeat center center;
@@ -36,10 +45,13 @@ body {
 }
 .elementsHeaderMain {
     background-color: rgb(243, 97, 97);
-    padding: 20px;
+    padding: 18px;
     border-radius: 15px;
     font-size: 23px;
 }
 .elementsHeaderMain:hover {
     transform: translateY(-10px);
+}
+.logoWrapper:hover {
+    transform: scale(1.07);
 }
