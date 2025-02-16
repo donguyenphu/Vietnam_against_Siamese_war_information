@@ -19,7 +19,7 @@ img {
     object-fit: cover;
 }
 img:hover {
-    transform: scale(1.08);
+    transform: scale(1.07);
 }
 #preloader {
     background: black url('../images/299.gif') no-repeat center center;
